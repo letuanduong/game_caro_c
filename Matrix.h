@@ -92,3 +92,4 @@ template <class T> void Matrix<T>::Fill(const T& value)
 		for (int j = 0; j < _cols; j++)
 			_data[i][j] = value;
 }
+
